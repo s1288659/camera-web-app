@@ -20,6 +20,12 @@ Style the element with id
     width: 100%;
 }
 
+#front-camera-button{
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+}
+
 .photo-taken{
     height: 100px!important;
     width: 100px!important;
