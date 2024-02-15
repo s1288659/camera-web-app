@@ -1,0 +1,26 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}   
+
+/*
+Style the element with id
+*/
+
+#camera,#camera-view,#camera-device,#photo-display{
+    position:fixed;
+    object-fit:contain;
+    height: 100%;
+    width:100%
+}
+
+#take-photo-button{
+    position:fixed;
+    bottom: 30px;
+    width: 100%;
+}
+
+.photo-taken{
+    height: 100px!important;
+    width: 100px!important;
+}
